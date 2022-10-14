@@ -1,0 +1,186 @@
+
+  body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+  }
+  html{
+    scroll-behavior:smooth ;
+  }
+  .navbar{
+    background-color: rgb(240, 240, 240);
+  }
+  .main-btn{
+    background-color: #277BC0 !important;
+    color: white !important;
+    text-align: center !important;
+    border-radius: 30px !important;
+    margin-left: 5px !important;
+    border-color: transparent !important;
+  }
+  .main-btn:hover{
+    background-color:#168def !important;
+  }
+  .nav-link{
+    color: black !important;
+    font-weight: 400 !important;
+  }
+  .nav-link:hover{
+    color: #277BC0 !important;
+  }
+
+  .navbar-brand{
+    color: #277BC0;
+    font-weight: 600;
+  }
+
+  .navbar .navbar-toggler {
+    font-size: 25px;
+    border-color: transparent;
+  }
+  .navbar .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: transparent;
+  }
+
+
+
+
+  /* start landing */
+.landing{
+  max-height: 80vh;
+  margin: 100px 0 !important;
+}
+.landing-image{
+  background-image: url("../images/3.PNG");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 85vh;
+  border-radius: 15px;
+  
+}
+.landing h2{
+  color: white !important;
+  padding: 15% 0 0 4% !important;
+  font-size: 2.5em !important;
+  line-height: 1.6 !important;
+}
+.landing .main-btn{
+  margin-left: 4% !important;
+  font-size: 1.2em;
+}
+
+  /* finish landing */
+
+
+
+  /* start about */
+  .about h2{
+    line-height: 1.2 !important;
+  }
+  .about-image{
+    border-radius: 50px 0 50px 50px;
+  }
+  .about-image img{
+    border-radius: 50px 0 50px 50px;
+  }
+  .first-pragraph{
+    color: #277BC0 !important;
+  }
+
+  /* finish about */
+
+
+  /* start sales */
+  .sales-head{
+    
+    color: #277BC0;
+    font-size: 2.5em;
+    margin: 25px 0;
+  }
+  .sales-cont{
+    font-weight: 600 !important;
+    padding: 25px 10px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .sales-cont p{
+    color: rgb(188, 188, 188);
+  }
+  .sales-cont:hover{
+    background-color: #277BC0 ;
+    color: white !important;
+  }
+  .icon svg{
+    margin-bottom: 15px;
+    font-size: 2.2em;
+  }
+
+  /* finish sales */
+
+
+  /* start fearured */
+  .fearured-head{
+    margin-bottom: 25px;
+  }
+  .fearured-head P{
+    color: #277BC0 !important;
+    margin-bottom: 15px !important;
+    font-size: 1.5em;
+  }
+  .fearured-cont{
+    padding: 10px 0 10px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 6px;
+  }
+  .houses{
+    display: flex;
+  }
+  .house{
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+    background-color: #74e021;
+    border-radius: 50px;
+    
+  }
+  .contry{
+    margin-left: 8px;
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+    background-color: #AE00FB;
+    border-radius: 50px;
+  }
+  .fearured-cont h5{
+    line-height: 1.5 !important;
+  }
+  .house-icons{
+    display: flex;
+  }
+  .house-icon{
+    margin-right: 15px;
+  }
+  .fearured-cont h6{
+    color: #AE00FB !important;
+  }
+  .fearured-cont:hover{
+    transform: scale(1.05);
+  }
+  
+
+  /* finish fearured */
+
+
+  .foot{
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }

@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+  }
+  html{
+    scroll-behavior:smooth ;
+  }
+  .navbar{
+    background-color: rgb(240, 240, 240);
+  }
+  .main-btn{
+    background-color: #277BC0 !important;
+    color: white !important;
+    text-align: center !important;
+    border-radius: 30px !important;
+    margin-left: 5px !important;
+    border-color: transparent !important;
+  }
+ 
+  .main-btn:hover{
+    background-color:#168def !important;
+  }
+  .navbar-brand{
+    color: #277BC0;
+    font-weight: 600;
+  }
+@media (min-width:991px) {
+  .navbar-brand{
+   margin-right: 60% !important;
+  }
+}
+  .navbar .navbar-toggler {
+    font-size: 25px;
+    border-color: transparent;
+  }
+  .navbar .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: transparent;
+  }
+
+
+
+.forget{
+    text-decoration: none;
+    width: 60%;
+    display: block;
+    text-align: right !important;
+    margin-bottom: 20px;
+}
+.btn1{
+    background-color: #277BC0;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-radius: 6px;
+    color: white ;
+    text-align: center;
+    width: 60%;
+    margin: 20px 0;
+}
+.btn2{
+    text-decoration: none;
+    width: 60%;
+    display: block;
+    background-color: #277BC0;
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-radius: 6px;
+    color: white ;
+    text-align: center;
+    width: 60%;
+    margin: 20px 0;
+}
+.btn2:hover{
+    color: white;
+}
+
+  input{
+    display: block;
+    padding: 8px 15px;
+    width: 60%;
+  }
+  @media (max-width:767px) {
+    input,.btn1,.btn2{
+      width: 100%;
+    }
+  }
